@@ -18,17 +18,17 @@
 - **PowerShell Version**: PowerShell 5.1 or later (PowerShell 7+ recommended for advanced features).
 - **Operating System**: Windows (tested on modern Windows versions).
 
+# VerifyFileHash.ps1
+
 ## Usage
 
 ### Running the Script
 
 1. Save the script as `VerifyFileHash.ps1`.
 2. Open a PowerShell terminal.
-3. Run the script with optional parameters:
+3. Run the script without any parameters:
    ```powershell
-   .\VerifyFileHash.ps1 -FilePath <PathToFile> -ExpectedHash <ExpectedHashValue> -Algorithm <HashAlgorithm> -Recursive -VerboseOutput
-
-   # VerifyFileHash.ps1
+   .\VerifyFileHash.ps1
 
 ## Overview
 
