@@ -1,0 +1,47 @@
+# .gitignore for PowerShell Projects
+
+# PowerShell Modules
+Modules/
+
+# PowerShell log files
+*.log
+
+# Module manifest cache
+*.psd1.xml
+
+# Nuget packages directory
+packages/
+
+# Generated files
+bin/
+obj/
+
+# PowerShell Studio files
+*.psproj
+*.psprojs
+*.pssln
+*.psf
+
+# PowerShell Gallery publishing file
+*.nupkg
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code directories
+.vscode/
+.ionide/
+
+# Windows Junk Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS Junk Files
+.DS_Store
+.AppleDouble
+.LSOverride
